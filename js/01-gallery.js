@@ -55,8 +55,8 @@ function openModal(sourse) {
   );
   instance.show();
 
-  function onKeyDownEscape(evt) {
-    if (evt.code === "Escape") {
+  function onKeyDownEscape(event) {
+    if (event.code === "Escape") {
       instance.close();
     }
   }
